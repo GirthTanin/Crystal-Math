@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+}
+
+#wrapper {
+    width: 680px;
+    /* height: 555px; */
+    height: 550px;
+    margin: auto;
+    padding: 10px;
+    background-color: black;
+    border: 5px solid red;
+
+}
+
+#titleHeader {
+    color: cornsilk;
+    font-size: 26px;
+    text-align: center;
+    line-height: 50px;
+}
+
+#start {
+    display: block;
+    color: cornsilk;
+    font-size: 26px;
+    text-align: center;
+    line-height: 50px;
+}
+
+#directions {
+    display: block;
+    float: left;
+    color: cornsilk;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    border: 5px solid orange;
+}
+
+#crystalBlue {
+    display: block;
+    float: left;
+    height: 50px;
+    color: cornsilk;
+    font-size: 26px;
+    text-align: center;
+    line-height: 50px;
+    border: 5px solid blue;
+}
+
+#crystalWhite {
+    float: right;
+    height: 50px;
+    color: cornsilk;
+    font-size: 26px;
+    text-align: left;
+    line-height: 50px;
+    border: 5px solid white;
+}
+
+#crystalPurple {
+    display: block;
+    /* position: absolute; */
+    float: left;
+    height: 50px;
+    margin-bottom: 0;
+    color: cornsilk;
+    font-size: 26px;
+    text-align: right;
+    line-height: 50px;
+    border: 5px solid purple;
+}
+
+#crystalGreen {
+    display: block;
+    /* position: absolute; */
+    float: right;
+    height: 50px;
+    margin-bottom: 0;
+    color: cornsilk;
+    font-size: 26px;
+    text-align: center;
+    line-height: 50px;
+    border: 5px solid green;
+}
+
+#numberDemanded {
+    display: block;
+    color: cornsilk;
+    font-size: 26px;
+    text-align: center;
+    line-height: 50px;
+    border: 5px solid white;
+}
+
+#wins {
+    display: block;
+    color: cornsilk;
+    font-size: 26px;
+    text-align: center;
+    line-height: 50px;
+    border: 5px solid rgb(34, 7, 133);
+}
+
+#losses {
+    display: block;
+    color: cornsilk;
+    font-size: 26px;
+    text-align: center;
+    line-height: 50px;
+    border: 5px solid rgb(34, 7, 133);
+}
+
+#music {
+    width: 680px;
+    margin: 10px 400px 0 455px;
+    padding: 5px;
+    text-align: center;
+}
