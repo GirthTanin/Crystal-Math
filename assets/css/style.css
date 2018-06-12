@@ -1,14 +1,17 @@
 body {
-    background-color: black;
+    background-color:yellowgreen;
+    
 }
 
 #wrapper {
-    width: 680px;
-    /* height: 555px; */
-    height: 550px;
+    width: 960px;
+    height: 960px;
     margin: auto;
     padding: 10px;
-    background-color: black;
+    background-image: url("../images/Reiki-Power-Up-Cropped.png");
+    background-repeat: no-repeat;
+    background-size: 990px auto;
+
     border: 5px solid red;
 
 }
@@ -22,7 +25,7 @@ body {
 
 #start {
     display: block;
-    color: cornsilk;
+    color: blue;
     font-size: 26px;
     text-align: center;
     line-height: 50px;
@@ -31,7 +34,7 @@ body {
 #directions {
     display: block;
     float: left;
-    color: cornsilk;
+    color: blue;
     font-size: 18px;
     text-align: center;
     line-height: 30px;
@@ -42,7 +45,7 @@ body {
     display: block;
     float: left;
     height: 50px;
-    color: cornsilk;
+    color: blue;
     font-size: 26px;
     text-align: center;
     line-height: 50px;
@@ -52,7 +55,7 @@ body {
 #crystalWhite {
     float: right;
     height: 50px;
-    color: cornsilk;
+    color: blue;
     font-size: 26px;
     text-align: left;
     line-height: 50px;
@@ -65,7 +68,7 @@ body {
     float: left;
     height: 50px;
     margin-bottom: 0;
-    color: cornsilk;
+    color:  blue;
     font-size: 26px;
     text-align: right;
     line-height: 50px;
@@ -78,7 +81,7 @@ body {
     float: right;
     height: 50px;
     margin-bottom: 0;
-    color: cornsilk;
+    color:  blue;
     font-size: 26px;
     text-align: center;
     line-height: 50px;
@@ -87,7 +90,7 @@ body {
 
 #numberDemanded {
     display: block;
-    color: cornsilk;
+    color:  blue;
     font-size: 26px;
     text-align: center;
     line-height: 50px;
@@ -96,7 +99,7 @@ body {
 
 #wins {
     display: block;
-    color: cornsilk;
+    color:  blue;
     font-size: 26px;
     text-align: center;
     line-height: 50px;
@@ -105,7 +108,7 @@ body {
 
 #losses {
     display: block;
-    color: cornsilk;
+    color:  blue;
     font-size: 26px;
     text-align: center;
     line-height: 50px;
