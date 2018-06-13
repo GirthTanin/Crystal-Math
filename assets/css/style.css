@@ -1,29 +1,32 @@
 body {
-    background-color:yellowgreen;
+    background-color: rgb(97, 9, 60);
     
 }
 
 #wrapper {
+    position: relative;
     width: 960px;
-    height: 960px;
-    margin: auto;
+    height: 900px;
+    margin: 14.5px auto;
     padding: 10px;
     background-image: url("../images/Reiki-Power-Up-Cropped.png");
     background-repeat: no-repeat;
     background-size: 990px auto;
 
-    border: 5px solid red;
+    /* border: 5px solid red; */
 
 }
 
 #titleHeader {
-    color: cornsilk;
-    font-size: 26px;
+    /* position: absolute; */
+    color: rgb(97, 9, 60);
+    font-size: 60px;
     text-align: center;
     line-height: 50px;
 }
 
 #start {
+    /* position: absolute; */
     display: block;
     color: blue;
     font-size: 26px;
@@ -32,17 +35,21 @@ body {
 }
 
 #directions {
+    /* position: absolute; */
     display: block;
     float: left;
     color: blue;
     font-size: 18px;
     text-align: center;
     line-height: 30px;
-    border: 5px solid orange;
+    /* border: 5px solid orange; */
 }
 
 #crystalBlue {
+    position: absolute;
     display: block;
+    top: 300px;
+    left: 40px;
     float: left;
     height: 50px;
     color: blue;
@@ -53,7 +60,10 @@ body {
 }
 
 #crystalWhite {
+    position: absolute;
     float: right;
+    top: 300px;
+    right: 40px;
     height: 50px;
     color: blue;
     font-size: 26px;
@@ -63,8 +73,10 @@ body {
 }
 
 #crystalPurple {
+    position: absolute;
     display: block;
-    /* position: absolute; */
+    bottom: 100px;
+    left: 40px;
     float: left;
     height: 50px;
     margin-bottom: 0;
@@ -77,7 +89,9 @@ body {
 
 #crystalGreen {
     display: block;
-    /* position: absolute; */
+    position: absolute;
+    bottom: 100px;
+    right: 40px;
     float: right;
     height: 50px;
     margin-bottom: 0;
@@ -89,15 +103,22 @@ body {
 }
 
 #numberDemanded {
+    position: absolute;
+    top: 450px;
+    /* once a real number goes in here, the left positioning will need to be resized. */
+    left: 250px;
     display: block;
-    color:  blue;
-    font-size: 26px;
+    color:  rgb(97, 9, 60);
+    font-size: 50px;
     text-align: center;
     line-height: 50px;
-    border: 5px solid white;
+    border: 5px solid blue;
 }
 
 #wins {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
     display: block;
     color:  blue;
     font-size: 26px;
@@ -107,6 +128,9 @@ body {
 }
 
 #losses {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
     display: block;
     color:  blue;
     font-size: 26px;
@@ -116,6 +140,7 @@ body {
 }
 
 #music {
+    position: absolute;
     width: 680px;
     margin: 10px 400px 0 455px;
     padding: 5px;
