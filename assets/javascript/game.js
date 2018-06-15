@@ -56,32 +56,24 @@ function fiveSeconds() {
 
 // this should be the first called function from the onclick event
 function goodTry() {
-    $("#numberDemanded").text(randomGameNum);
 
-    if (start1.style.display === "block") {
-        start1.style.display = "none";
-        console.log("It's magic!");
-    } 
-    if (start1.style.display = "none") {
-        document.getElementById("directions");
-        directions.style.display = "block";
-    console.log("It reappears!");   
-    }
-
-    var counter1 = 0;
+    counter1 = 0;
     $("#counter").text(counter1);
 
+
     //this is all the random math generators
-        var randomGameNum = Math.floor(Math.random() * 101+19);
+        randomGameNum = Math.floor(Math.random() * 101+19);
         console.log(randomGameNum);
-        var randomBlueNum = Math.floor(Math.random() * 11+1);
+        randomBlueNum = Math.floor(Math.random() * 11+1);
         console.log(randomBlueNum);
-        var randomWhiteNum = Math.floor(Math.random() * 11+1);
+        randomWhiteNum = Math.floor(Math.random() * 11+1);
         console.log(randomWhiteNum);
-        var randomPurpleNum = Math.floor(Math.random() * 11+1);
+        randomPurpleNum = Math.floor(Math.random() * 11+1);
         console.log(randomPurpleNum);
-        var randomGreenNum  = Math.floor(Math.random() * 11+1);
+        randomGreenNum  = Math.floor(Math.random() * 11+1);
         console.log(randomGreenNum);
+
+        $("#numberDemanded").text(randomGameNum);
 
 }
 
@@ -146,16 +138,18 @@ function winner() {
     wins ++;
     $("#wins").html("&nbspWins: " + wins + "&nbsp");
     setTimeout(fiveSeconds, 1000 * 5);
-    goodTry();
+    setTimeout(goodTry, 1000 * 5);
+    // goodTry();
 }
 
 function loser() {
-    $("#youDidSomething").text("It can't rain all the time!");
+    $("#youDidSomething").text("Don't give up. You're not the only one. -PG");
     console.log("youDidSomething worked");
     losses ++;
     $("#losses").html("&nbspLosses: " + losses + "&nbsp");
     setTimeout(fiveSeconds, 1000 * 5);
-    goodTry();
+    setTimeout(goodTry, 1000 * 5);
+    // goodTry();
 }
 
 
