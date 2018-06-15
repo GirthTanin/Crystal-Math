@@ -68,6 +68,9 @@ function goodTry() {
     console.log("It reappears!");   
     }
 
+    var counter1 = 0;
+    $("#counter").text(counter1);
+
     //this is all the random math generators
         var randomGameNum = Math.floor(Math.random() * 101+19);
         console.log(randomGameNum);
@@ -143,7 +146,7 @@ function winner() {
     wins ++;
     $("#wins").html("&nbspWins: " + wins + "&nbsp");
     setTimeout(fiveSeconds, 1000 * 5);
-    goodTry;
+    goodTry();
 }
 
 function loser() {
@@ -152,7 +155,7 @@ function loser() {
     losses ++;
     $("#losses").html("&nbspLosses: " + losses + "&nbsp");
     setTimeout(fiveSeconds, 1000 * 5);
-    goodTry;
+    goodTry();
 }
 
 
