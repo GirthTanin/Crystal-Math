@@ -12,27 +12,21 @@ body {
     background-image: url("../images/Reiki-Power-Up-Cropped.png");
     background-repeat: no-repeat;
     background-size: 990px auto;
-
+    
     /* border: 5px solid red; */
 
 }
 
 #titleHeader {
-    /* position: absolute; */
+    position: absolute;
+    top: 20px;
+    left: 275px;
     color: rgb(97, 9, 60);
-    font-size: 60px;
+    font-size: 85px;
     text-align: center;
     line-height: 50px;
 }
 
-#start {
-    /* position: absolute; */
-    display: block;
-    color: blue;
-    font-size: 26px;
-    text-align: center;
-    line-height: 50px;
-}
 
 #directions {
     /* position: absolute; */
@@ -106,17 +100,61 @@ body {
     /* border: 5px solid green; */
 }
 
+#start {
+    position: absolute;
+    top: 450px;
+    left: 200px;
+    display: block;
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+    line-height: 50px;
+    /* border: 5px solid blue; */
+}
+
 #numberDemanded {
     position: absolute;
     top: 450px;
     /* once a real number goes in here, the left positioning will need to be resized. */
-    left: 250px;
-    display: block;
+    /* left: 445px; */
+    /* display: block; */
+    width: 100%;
     color:  rgb(97, 9, 60);
-    font-size: 50px;
+    font-family: 'Old Standard TT', serif;
+    font-weight: bold;
+    font-size: 100px;
     text-align: center;
     line-height: 50px;
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
+}
+
+#youDidSomething {
+    position: absolute;
+    top: 550px;
+    /* left: 275px; */
+    /* display: block; */
+    width: 100%;
+    color: blue;
+    font-family: 'Old Standard TT', serif;
+    font-size: 60px;
+    text-align: center;
+    line-height: 50px;
+    /* border: 5px solid blue; */
+}    
+
+#counter {
+    position: absolute;
+    top: 650px;
+    /* left: 440px; */
+    /* display: block; */
+    width:100%;
+    color: blue;
+    font-family: 'Old Standard TT', serif;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    line-height: 50px;
+    /* border: 5px solid blue; */
 }
 
 #wins {
@@ -124,11 +162,13 @@ body {
     bottom: 20px;
     left: 20px;
     display: block;
-    color:  blue;
+    color:  rgb(97, 9, 60);
+    font-family: 'Old Standard TT', serif;
+    font: bold;
     font-size: 26px;
     text-align: center;
     line-height: 50px;
-    border: 5px solid rgb(34, 7, 133);
+    border: 5px solid rgb(97, 9, 60);
 }
 
 #losses {
@@ -136,11 +176,13 @@ body {
     bottom: 20px;
     right: 20px;
     display: block;
-    color:  blue;
+    color:  rgb(97, 9, 60);
+    font-family: 'Old Standard TT', serif;
+    font: bold;
     font-size: 26px;
     text-align: center;
     line-height: 50px;
-    border: 5px solid rgb(34, 7, 133);
+    border: 5px solid rgb(97, 9, 60);
 }
 
 #music {

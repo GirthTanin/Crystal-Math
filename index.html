@@ -3,34 +3,42 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>jQuery-HW</title>
+    <title>CRYSTAL MATH</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+    
 </head>
 <body>
     <div id="wrapper">
             <!-- <img style="width:50%; height:50%; margin:auto; padding: 0 0 5% 0; display:block"  -->
             <!-- src="../unit-4-game/assets/images/Reiki-to-fit.png" title="Reiki Power Up" alt="Reiki Power Up Symbol"> -->
         <div id="titleHeader">Crystal Math</div>
-        <div id="directions"><br><br><br>Can you survive Crystal Math?  Bellow you will see the four crystals, each has a hidden "value" that one can only devise by "clicking".  But be warned!  Each value will be added, with the attempt to confuse you!  If you can correctly use the crystals to equal the number demanded of you, perhaps you can live to compete in <em>another</em> round.</div>
+        <div id="directions"><br><br><br>Can you survive Crystal Math?  Below you will see the four crystals, each has a hidden "value" that one can only devise by "clicking".  But be warned!  Each value will be added, with the attempt to confuse you!  If you can correctly use the crystals to equal the number demanded of you, perhaps you can live to compete in <em>another</em> round.</div>
         
         <!-- image stuff instead of div id -->
         <!-- <div id="crystalBlue">BLUE</div> -->
-        <img src="assets/images/blueResized.jpg" id="crystalBlue">
+        <img src="assets/images/blueResized.jpg" id="crystalBlue" class="crystal">
 
         <!-- <div id="crystalWhite">WHITE</div> -->
-        <img src="assets/images/whiteResized2.jpg" id="crystalWhite">
+        <img src="assets/images/whiteResized2.jpg" id="crystalWhite" class="crystal">
 
         <!-- <div id="crystalPurple">PURPLE</div> -->
-        <img src="assets/images/purpleResized.jpg" id="crystalPurple">
+        <img src="assets/images/purpleResized.jpg" id="crystalPurple" class="crystal">
 
         <!-- <div id="crystalGreen">GREEN</div> -->
-        <img src="assets/images/greenResized2.jpg" id="crystalGreen">
+        <img src="assets/images/greenResized2.jpg" id="crystalGreen" class="crystal">
 
 
+        <!-- it would be very cool if I can get the start to dissappear at the beginning and be replaced by the numberDemanded -->
+        <div id="start">Click Here to Start the Game!</div>
+        <div id="numberDemanded"></div>
 
-        <div id="numberDemanded">MATCH THIS NUMBER!!</div>
+        <div id="youDidSomething"></div>
+
+        <div id="counter"></div>
 
         <div id="wins">Destruction Evaded</div>
         <div id="losses">Times Crystals Overpowered You</div>
@@ -43,6 +51,6 @@
 
 
     </div>
-    
+    <script src="assets/javascript/game.js"></script>
 </body>
 </html>
