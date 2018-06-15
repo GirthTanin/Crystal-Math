@@ -186,11 +186,16 @@ body {
     line-height: 50px;
     border: 5px solid rgb(97, 9, 60);
 }
-
-#music {
-    position: absolute;
-    width: 680px;
-    margin: 10px 400px 0 455px;
-    padding: 5px;
-    text-align: center;
-}
+/* ran out of time to make it as nice on my laptop as it is on my home monitor */
+/* @media screen and (max-width: 768px) {
+    
+    body {
+      background-color: 
+    }
+} */
+/* 
+@media screen and (max-width: 320px) {
+    body {
+      background-color:
+    }
+} */
